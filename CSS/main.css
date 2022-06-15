@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+section {
+    padding-top: 113px;
+}
+
+h1, h2, h3, {
+padding: 0;
+margin: 0;
+text-transform: uppercase;
+}
+
+ul,
+li {
+    display: block;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    /*0 сверху, авто справа, 0 снизу, авто слева*/
+}
+
+.header {
+    background: url(/Image/BG/header-bg.jpg) no-repeat center top 100% / cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+}
+
+header a {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    letter-spacing: 0.1em;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration-line: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 3px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+}
+
+.buy-button {
+    display: block;
+    font-size: 17px;
+    text-decoration-line: none;
+    border: 1px solid #FFFFFF;
+    width: 238px;
+    height: 57px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 18px 24px;
+}
+
+.about {
+    padding-top: 113px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.descriprion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-column {
+    width: 564px;
+
+}
+
+.description-column p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.footer-text p {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    padding: 114px 0;
+}
